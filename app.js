@@ -15,6 +15,7 @@ router.get('/tolga', (req, res) => {
     return res.status(200).json({
         name: "Tolga",
         lastname: "Yakar",
+        message: "I have changed the github workflows"
         message: "Hello world",
         error: null
     });
